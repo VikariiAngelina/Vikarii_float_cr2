@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-size: 0;
+}
+
+.block1 {
+	background-color: black;
+}
+
+.block1:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+.block_one {
+	float: left;
+	width: 20%;
+	height: 50px;
+	background-color: green;
+}
+
+.block_two {
+	float: right;
+	width: 20%;
+	height: 50px;
+	background-color: green;
+}
+
+.block2 {
+	background-color: red;
+}
+
+.block2: after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+.blockblue {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	float: left;
+}
+
+.description {
+	margin: 0;
+	font-size: 35px;
+}
